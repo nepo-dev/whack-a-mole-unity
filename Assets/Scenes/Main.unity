@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14131759}
+  - component: {fileID: 14131760}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -150,6 +151,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14131760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14131758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5f3c2069656b742a62f456e9585dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &40282675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -929,28 +942,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3150537974273005512, guid: 55082e08ee943874a9b95981c2b49cb5, type: 3}
   m_PrefabInstance: {fileID: 1813851906}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1813851908 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5929719899553781827, guid: 55082e08ee943874a9b95981c2b49cb5, type: 3}
-  m_PrefabInstance: {fileID: 1813851906}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8fe928e885aeb1b2a23e521bd8e3262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hole
---- !u!114 &2054837037 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5929719899553781827, guid: 55082e08ee943874a9b95981c2b49cb5, type: 3}
-  m_PrefabInstance: {fileID: 8390449106754719887}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8fe928e885aeb1b2a23e521bd8e3262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Hole
 --- !u!1 &2073769177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1081,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 1816908800011029147, guid: 8778c829c512dec54922bbaf9488470b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 382543143050238579, guid: 8778c829c512dec54922bbaf9488470b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3825697486432361681, guid: 8778c829c512dec54922bbaf9488470b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8778c829c512dec54922bbaf9488470b, type: 3}
